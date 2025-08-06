@@ -1,4 +1,4 @@
-# Face Recognition with Image Processing Base [OpenCV - Face Recognition]
+# Real-Time Face Recognition Project for Security and Time Management with OpenCV
 
 ## Yüz Algılama 
 Bir görüntüdeki yüzleri (konum ve boyut) bulma ve muhtemelen yüz tanıma algoritması tarafından kullanılmak üzere çıkarma amacına sahiptir.
