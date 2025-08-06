@@ -1,18 +1,18 @@
 # Real-Time Face Recognition Project for Security and Time Management with OpenCV
 
-## Yüz Algılama 
-Bir görüntüdeki yüzleri (konum ve boyut) bulma ve muhtemelen yüz tanıma algoritması tarafından kullanılmak üzere çıkarma amacına sahiptir.
+## Face Detection
+Its purpose is to find faces (position and size) in an image and extract them for possible use by the face recognition algorithm.
 
-## Yüz Tanıma
-Yüz görüntüleri zaten ayıklanmış, kırpılmış, yeniden boyutlandırılmış ve genellikle gri tonlamaya dönüştürüldüğünde, yüz tanıma algoritması görüntüyü en iyi tanımlayan özellikleri bulmaktan sorumludur.
+## Face Recognition
+When face images have already been extracted, cropped, resized, and usually converted to grayscale, the face recognition algorithm is responsible for finding the features that best describe the image.
 
-##Projemizdeki dosya ve klasörlerle ilgili özet bilgiler
+## Summary of files and folders in our project
 
-### Projemizde öncelikle yuz_verisi.py , yuz_tanima.py ve deneme.py dosyalarını ve deneme ve veri adında iki adet klasör oluşturduk.
+### In our project, we first created the files yuz_verisi.py, yuz_tanima.py, and deneme.py, and two folders named deneme and dati.
 
--	yuz_verisi.py: veri setimizi, veri klasörü içine oluşturduğumuz modül.
-Veri setimizde yer alacak her kişiyi yuz_ismi değişkenini değiştirerek  kameraya tanıttık.
--	deneme.py: Veri setimizi eğittiğimiz modül
--	yuz_tanima.py: kameraya gösterilen yüzleri, veri setimizdeki yüzlerle karşılaştırarak tanıyacak olan modül
--	veri.yml: veri setimizin tutulduğu klasör
--	deneme.yml: Veri setimizdeki verilerin eğitildikten sonra tutulduğu klasör
+- yuz_verisi.py: The module where we created our dataset within the data folder.
+We introduced each person in our dataset to the camera by changing the yuz_name variable.
+- deneme.py: The module where we trained our dataset.
+- yuz_tanima.py: The module that will recognize faces shown to the camera by comparing them with faces in our dataset.
+- veri.yml: The folder where our dataset is stored.
+- deneme.yml: The folder where the data in our dataset is stored after training.
